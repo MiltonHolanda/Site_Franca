@@ -28,8 +28,7 @@ SECRET_KEY = str(os.getenv(('SECRET_KEY')))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['site-franca-1.onrender.com']
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
